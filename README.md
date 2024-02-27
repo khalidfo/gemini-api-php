@@ -1,5 +1,5 @@
 
-###### Google Gemini API - PHP
+# Google Gemini API - PHP
 
 This PHP code calls the Google Gemini API, which is a powerful generative AI tool.
 
