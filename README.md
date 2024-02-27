@@ -47,4 +47,47 @@ raw=true
 alt="Result"
 />
 
-coding is poetry keep coding! 💻 🚀
+## Further Work
+
+### Additional tasks include implementing the safetySettings parameter: 
+
+```
+$postData = json_encode([
+		"contents" => [
+			[
+				"parts" => [
+					["text" => $prompt]
+				]
+			]
+		],
+		"generationConfig" => [
+			"temperature" => 0.9,
+			"topK" => 1,
+			"topP" => 1,
+			"maxOutputTokens" => 2000,
+			"stopSequences" => []
+		],
+		"safetySettings" => [
+			[
+				"category" => "HARM_CATEGORY_HARASSMENT",
+				"threshold" => "BLOCK_ONLY_HIGH"
+			],
+			[
+				"category" => "HARM_CATEGORY_HATE_SPEECH",
+				"threshold" => "BLOCK_ONLY_HIGH"
+			],
+			[
+				"category" => "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+				"threshold" => "BLOCK_ONLY_HIGH"
+			],
+			[
+				"category" => "HARM_CATEGORY_DANGEROUS_CONTENT",
+				"threshold" => "BLOCK_ONLY_HIGH"
+			]
+		]
+	]);
+```
+### Enhancing the visual presentation of the result using CSS for improved aesthetics.
+
+Coding is poetry keep coding! 💻 🚀
+

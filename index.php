@@ -34,8 +34,8 @@
         }
     }
 
-    $apiKey="---";
-    $prompt="As a developer, give me my daily work plan with daily 5 times prayers, including reciting the Quran.";
+    $apiKey = "---";
+    $prompt = "As a developer, give me my daily work plan with daily 5 times prayers, including reciting the Quran.";
 
     $generatedText = generateAIContent($apiKey, $prompt);
     echo $generatedText;
