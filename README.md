@@ -27,7 +27,7 @@ Gemini is a family of large language models ([LLMs](https://www.cloudflare.com/l
 
 ## Sample code
 
-```
+```php
 <?php
 
     function generateAIContent($apiKey, $prompt) {
