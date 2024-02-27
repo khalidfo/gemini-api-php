@@ -3,7 +3,7 @@
 
 This PHP code calls the Google Gemini API, which is a powerful generative AI tool.
 
-[Get Gemini API Key](https://aistudio.google.com/app/apikey)
+👉 [Get Gemini API Key](https://aistudio.google.com/app/apikey)
 
 Gemini is a family of large language models ([LLMs](https://www.cloudflare.com/learning/ai/what-is-large-language-model/)) developed by [Google DeepMind](https://deepmind.google/). It's known for its:
 
