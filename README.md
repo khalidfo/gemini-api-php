@@ -73,14 +73,14 @@ Gemini is a family of large language models ([LLMs](https://www.cloudflare.com/l
 
 ## Add your API key here
 
-```
+```php
 $apiKey = "add_your_api_key_here";
 
 ```
 
 ## Add your prompt here
 
-```
+```php
 $prompt = "add_your_prompt_here";
 
 ```
@@ -97,7 +97,7 @@ alt="Result"
 
 ### Additional tasks include implementing the safetySettings parameter: 
 
-```
+```php
 $postData = json_encode([
 		"contents" => [
 			[
@@ -135,5 +135,5 @@ $postData = json_encode([
 ```
 ### Enhancing the visual presentation of the result using CSS for improved aesthetics.
 
-Coding is poetry keep coding! 💻 🚀
+Coding is poetry, keep coding! 💻 🚀
 
