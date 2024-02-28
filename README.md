@@ -30,7 +30,7 @@ Gemini is a family of large language models ([LLMs](https://www.cloudflare.com/l
 ```php
 <?php
 
-    function generateAIContent($apiKey, $prompt) {
+    function generateContent($apiKey, $prompt) {
         $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={$apiKey}";
 
         $postData = json_encode([
@@ -67,7 +67,7 @@ Gemini is a family of large language models ([LLMs](https://www.cloudflare.com/l
     $apiKey = "---";
     $prompt = "As a developer, give me my daily work plan with daily 5 times prayers, including reciting the Quran.";
 
-    $generatedText = generateAIContent($apiKey, $prompt);
+    $generatedText = generateContent($apiKey, $prompt);
     echo $generatedText;
 ```
 
